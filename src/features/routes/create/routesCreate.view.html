@@ -1,0 +1,31 @@
+<div class="row">
+    <section class="col s4" style='padding-right: 0; max-height: 560px;'>
+        <div class="card" style='padding-bottom: 40px'>
+            <div class="card-content">
+              
+              <span class="card-title"><a ui-sref='routes-list'><i class="material-icons">keyboard_backspace</i></a> Nova Rota</span>
+              <a class="btn-floating btn-large halfway-fab waves-effect waves-light blue" style='bottom: 12px' ng-click="vm.save(vm.route)"><i class="material-icons">done</i></a>
+              <hr/>
+
+              <div class='row'>
+                <form class='col s12'>
+                    <div class="input-field col s12">
+                      <input placeholder="Digite  número de identificação do veículo..." type="text" ng-model="vm.route.vehicleId">
+                      <label>Identificador do veículo</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <input placeholder="Digite o titulo..." type="text" ng-model="vm.route.name">
+                      <label>Título</label>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="col s8" id="teste">
+        <ng-leaflet-map ng-config="vm.ngConfig" height="560px">
+            <ng-leaflet-marker ng-config-marker="vm.ngConfigMarker" ng-markers="vm.ngMarkers"></ng-leaflet-marker>
+        </ng-leaflet-map>  
+    </section>
+</div>       

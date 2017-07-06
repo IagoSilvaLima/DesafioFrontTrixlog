@@ -1,0 +1,57 @@
+#teste{
+    margin-top: 10px;
+}
+
+.menu{
+    background-color:  #2196F3;
+}
+
+.brand-logo{
+    font-weight: 300;
+    padding-left: 1.2em !important; 
+
+}
+
+body{
+    background-color:  #F5F5F5;
+}
+
+.icon-route{
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+.card-title{
+    color: #656565 ;
+}
+
+hr{
+    opacity: 0.2;
+}
+
+.collection-item .title{
+    color: #656565;
+}
+
+.collection-item p{
+    color: #A3A3A3 !important;
+    font-weight: 300;
+}
+.github{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 64px 64px 0px;
+    border-color: transparent #42A5F5 transparent transparent;
+
+    position: absolute;
+    right: 0;
+}
+
+input:focus{
+    border-bottom: 1px solid #1E88E5 !important;
+    box-shadow: 0 1px 0 0 #1E88E5 !important;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+    color: #1E88E5 !important;
+}

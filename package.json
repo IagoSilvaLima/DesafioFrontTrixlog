@@ -1,0 +1,25 @@
+{
+  "name": "desafiofront",
+  "version": "1.0.0",
+  "description": "Desafio da Trixlog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp bower"
+  },
+  "keywords": [
+    "routes",
+    "trixlog"
+  ],
+  "author": "Iago Silva Lima",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.3.1",
+    "gulp-main-bower-files": "^1.6.2",
+    "gulp-uglify": "^3.0.0",
+    "live-server": "^1.2.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "desafiofront",
+  "description": "Desafio da Trixlog",
+  "main": "index.js",
+  "authors": [
+    "Iago Silva Lima"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "routes",
+    "trixlog"
+  ],
+  "overrides": {
+    "materialize": {
+      "main": [
+        "./dist/css/materialize.min.css",
+        "./dist/js/materialize.min.js"
+      ]
+    },
+    "leaflet": {
+      "main": [
+        "./dist/leaflet.css",
+        "./dist/leaflet-src.js",
+        "./dist/images/layers-2x.png",
+        "./dist/images/layers.png",
+        "./dist/images/marker-icon-2x.png",
+        "./dist/images/marker-icon.png",
+        "./dist/images/marker-shadow.png"
+      ]
+    }
+  },
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize": "^0.99.0",
+    "ngLeaflet": "*",
+    "angular-ui-router": "0.3.1",
+    "sweetalert": "^1.1.3",
+    "ngSweetAlert": "angular-sweetalert#^1.1.2"
+  }
+}

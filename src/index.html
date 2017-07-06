@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
+    <link rel="stylesheet" href="./libs/materialize/dist/css/materialize.min.css"/>
+    <link rel="stylesheet" href="./libs/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="./assets/css/application.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./libs/sweetalert/dist/sweetalert.css">
+    <!-- end css -->
+
+    <!-- js -->
+    <script src = "./libs/angular/angular.js"/></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"/></script>
+    <script src = "./libs/jquery/dist/jquery.js"/></script>
+    <script src = "./libs/materialize/dist/js/materialize.min.js"/></script>
+    <script src = "./libs/leaflet/dist/leaflet-src.js"/></script>
+    <script src = "./libs/Leaflet.encoded/Polyline.encoded.js"/></script>
+    <script src = "./libs/ngLeaflet/dist/ngLeaflet.min.js"/></script>
+    <script src = "./libs/sweetalert/dist/sweetalert.min.js"/></script>
+    <script src = "./libs/ngSweetalert/SweetAlert.js"/></script>
+    <script src = "./app.js"/></script>
+    <script src = "./features/routes/routes.js"/></script>
+
+    <script src = "./features/routes/create/routesCreate.service.js"/></script>
+    <script src = "./features/routes/create/routesCreate.controller.js"/></script>
+    <script src = "./features/routes/edit/routesEdit.service.js"/></script>
+    <script src = "./features/routes/edit/routesEdit.controller.js"/></script>
+    <script src = "./features/routes/list/routesList.service.js"/></script>
+    <script src = "./features/routes/list/routesList.controller.js"/></script>
+    <!-- end js -->
+    <title>Desafio da Trixlog</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper menu">
+            <a href="#" class="brand-logo">Desafio da Trixlog</a>
+            <div class='github'><a href='#'>github</a></div>
+        </div>
+    </nav>
+    <main>
+        <ui-view></ui-view>
+    </main>
+</body>
+</html>
